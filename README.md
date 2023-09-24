@@ -53,3 +53,5 @@ The expectations for this decomposition efforts are as follows:
 - The strategy should cover organization, processes and technology as a minimum
 
 ## Solution
+<img width="2495" alt="Screenshot 2023-09-24 at 20 06 14" src="https://github.com/dgesteves/pmi-fe/assets/34245953/d0dd9f4c-d4ca-4751-a71f-61627746ab1f">
+<img width="2495" alt="Screenshot 2023-09-24 at 20 06 57" src="https://github.com/dgesteves/pmi-fe/assets/34245953/290c7652-bbf2-4acb-a573-1e4f21de7e5a">
