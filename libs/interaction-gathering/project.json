@@ -1,0 +1,16 @@
+{
+  "name": "interaction-gathering",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/interaction-gathering/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/interaction-gathering/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}

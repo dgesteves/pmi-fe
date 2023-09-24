@@ -14,7 +14,30 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@pmi-fe/consumer-registration": [
+        "libs/consumer-registration/src/index.ts"
+      ],
+      "@pmi-fe/consumer-registration/server": [
+        "libs/consumer-registration/src/server.ts"
+      ],
+      "@pmi-fe/data-privacy": ["libs/data-privacy/src/index.ts"],
+      "@pmi-fe/data-privacy/server": ["libs/data-privacy/src/server.ts"],
+      "@pmi-fe/design-system": ["libs/design-system/src/index.ts"],
+      "@pmi-fe/design-system/server": ["libs/design-system/src/server.ts"],
+      "@pmi-fe/interaction-gathering": [
+        "libs/interaction-gathering/src/index.ts"
+      ],
+      "@pmi-fe/interaction-gathering/server": [
+        "libs/interaction-gathering/src/server.ts"
+      ],
+      "@pmi-fe/sales-on-spot": ["libs/sales-on-spot/src/index.ts"],
+      "@pmi-fe/sales-on-spot/server": ["libs/sales-on-spot/src/server.ts"],
+      "@pmi-fe/services": ["libs/services/src/index.ts"],
+      "@pmi-fe/services/server": ["libs/services/src/server.ts"],
+      "@pmi-fe/stock-tracking": ["libs/stock-tracking/src/index.ts"],
+      "@pmi-fe/stock-tracking/server": ["libs/stock-tracking/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
