@@ -1,10 +1,6 @@
-name: CI
+name: Build and Test (PR)
 on:
-  push:
-    branches:
-      - main
   pull_request:
-
 jobs:
   main:
     runs-on: ubuntu-latest
@@ -14,10 +10,10 @@ jobs:
           fetch-depth: 0
       - uses: nrwl/nx-set-shas@v3
       - run: npm ci
-
       - run: npx nx format:check
       - run: npx nx affected -t lint --parallel=3
       - run: npx nx affected -t test --parallel=3
       - run: npx nx affected -t e2e --parallel=4
       - run: npx nx affected -t build --parallel=3
+
 #nx run-many --target e2e --parallel 4 --verbose

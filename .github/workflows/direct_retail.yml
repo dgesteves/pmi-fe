@@ -1,0 +1,19 @@
+name: Build and Test (direct_retail)
+on:
+  push:
+    branches:
+      - direct_retail
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: nrwl/nx-set-shas@v3
+      - run: npm ci
+      - run: npx nx format:check
+      - run: npx nx run direct-retail:lint
+      - run: npx nx run direct-retail:test
+      - run: npx nx run direct-retail-e2e:e2e
+      - run: npx nx run direct-retail:build:production
