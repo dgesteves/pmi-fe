@@ -20,3 +20,4 @@ jobs:
       - run: npx nx affected -t test --parallel=3
       - run: npx nx affected -t e2e --parallel=3
       - run: npx nx affected -t build --parallel=3
+#nx run-many --target e2e --parallel 4 --verbose
