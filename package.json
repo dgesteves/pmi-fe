@@ -2,7 +2,11 @@
   "name": "@pmi-fe/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "direct-retail:serve-dev": "npx nx run direct-retail:serve:development",
+    "direct-retail:test-watch": "npx nx run direct-retail:test --watch",
+    "direct-retail:e2e-watch": "npx nx run direct-retail-e2e:e2e --watch"
+  },
   "private": true,
   "dependencies": {
     "@nx/next": "16.9.0",

@@ -1,6 +1,12 @@
 'use client';
 
 import styled from 'styled-components';
+import { HelloServer as CR } from '@pmi-fe/consumer-registration/server';
+import { HelloServer as DP } from '@pmi-fe/data-privacy/server';
+import { HelloServer as IG } from '@pmi-fe/interaction-gathering/server';
+import { HelloServer as SOS } from '@pmi-fe/sales-on-spot/server';
+import { HelloServer as S } from '@pmi-fe/services/server';
+import { HelloServer as ST } from '@pmi-fe/stock-tracking/server';
 
 const StyledPage = styled.div`
   .page {
@@ -23,7 +29,12 @@ export default async function Index() {
               Welcome indirect-retail 👋
             </h1>
           </div>
-
+          <CR />
+          <DP />
+          <IG />
+          <SOS />
+          <S />
+          <ST />
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>
