@@ -22,12 +22,6 @@ export default async function Index() {
   return (
     <StyledPage>
       <div className="wrapper">
-        <CR />
-        <DP />
-        <IG />
-        <SOS />
-        <S />
-        <ST />
         <div className="container">
           <div id="welcome">
             <h1>
@@ -35,7 +29,12 @@ export default async function Index() {
               Welcome indirect-retail 👋
             </h1>
           </div>
-
+          <CR />
+          <DP />
+          <IG />
+          <SOS />
+          <S />
+          <ST />
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>
