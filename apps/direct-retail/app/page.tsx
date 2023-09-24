@@ -17,6 +17,8 @@ export default async function Index() {
     <StyledPage>
       <div className="wrapper">
         <div>YHOOO!</div>
+        <div>YHOOO2!</div>
+        <div>YHOOO3!</div>
         <div className="container">
           <div id="welcome">
             <h1>
