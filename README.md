@@ -106,3 +106,7 @@ In the other hand the monorepo approach with an standalone application for each 
 - Babel as a polyfiller and transpiler
 - CI/CD tools (To be defined)
 - Repository host tool (To be defined)
+
+## Conclusion:
+
+In conclusion, among various solution approaches for decomposing the current monolithic Frontend, these two stand out as the most efficient and scalable options. Given more time, I could have provided a more comprehensive description and a detailed implementation example for this solution. However, with only half a day, I've highlighted the key aspects.
