@@ -1,6 +1,6 @@
 # PmiFe
 
-## PMI FE decomposing use case
+## PMI FE decomposing use case:
 
 **Synopsis**: PMI has engaged into a digital transformation process which aims to transform
 both the organizational landscape and the technology landscape, aiming to transition
@@ -52,7 +52,7 @@ The expectations for this decomposition efforts are as follows:
   transformation process and not impact customer experience or revenue
 - The strategy should cover organization, processes and technology as a minimum
 
-## Solution
+## Solution:
 
 <img width="2495" alt="Screenshot 2023-09-24 at 20 06 14" src="https://github.com/dgesteves/pmi-fe/assets/34245953/d0dd9f4c-d4ca-4751-a71f-61627746ab1f">
 <img width="2495" alt="Screenshot 2023-09-24 at 20 06 57" src="https://github.com/dgesteves/pmi-fe/assets/34245953/290c7652-bbf2-4acb-a573-1e4f21de7e5a">
@@ -86,3 +86,23 @@ In the other hand the monorepo approach with an standalone application for each 
 - **Application metrics and user interaction**: Each team should use Performance Indicators to measure the success of the decomposition efforts. Monitor metrics related to user satisfaction, application uptime, and development efficiency.
 
 ### Technologies:
+
+- NX for monorepo tooling
+- TypeScript as compiled typed language
+- Next.js 13 as a React.js framework
+- Cypress as a E2E testing tool
+- jest as a unit and integration test runner
+- React testing library as a assertion library
+- Styled components as a CSS-in-JS solution (optional)
+- Eslint as code analyses and syntax linter tool
+- Prettier as a code formatter
+- AWS Amplify as a full stack serverless cloud solution (optional)
+- Next-Auth for user authentication (optional)
+- LaunchDarkly as a feature flag tool (optional)
+- MixPanel as a user analytics tool (optional)
+- Sentry as a application monitoring tool (optional)
+- Node.js as javaScript runtime
+- Webpack as a bundler
+- Babel as a polyfiller and transpiler
+- CI/CD tools (To be defined)
+- Repository host tool (To be defined)
